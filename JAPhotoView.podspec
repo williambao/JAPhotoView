@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
   s.author             = { "William" => "williamyeah@vip.qq.com" }
-  s.social_media_url   = "http://weibo.com/hugejingui"
+  # s.social_media_url   = "http://weibo.com/hugejingui"
 
   s.platform     = :ios, "9.0"
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/williambao/JAPhotoView", :tag => s.version }
+  s.source       = { :git => "https://github.com/williambao/JAPhotoView.git", :tag => s.version }
   s.source_files  = "JAPhotoView/*.swift"
 
   s.resource  = "JAPhotoView/*.png"
